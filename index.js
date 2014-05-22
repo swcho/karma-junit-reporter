@@ -36,7 +36,7 @@ var JUnitReporter = function(baseReporterDecorator, config, logger, helper, form
     xml = builder.create('testsuites');
 
     // TODO(vojta): remove once we don't care about Karma 0.10
-    browsers.forEach(initliazeXmlForBrowser);
+    //browsers.forEach(initliazeXmlForBrowser);
   };
 
   this.onBrowserStart = function(browser) {
